@@ -1,0 +1,106 @@
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+
+  max-width: 500px;
+  margin:auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+label{
+    display:inline;
+    font-size: 20px;
+
+}
+input,textarea{
+    margin: 10px;
+    border: #79CBCA;
+    display: block;
+    border-radius: 5px;    
+}
+
+button{
+    margin-bottom: 50px;
+    background-color: #ff6e7f;
+    border-color: #ff6e7f;
+    border-radius: 3px;
+    margin-left: 15px;
+    font-size: 20px;
+
+
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif;
+}
+
+h4{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cont{
+    text-align: left;
+    position: relative;
+    left: 38%;
+    width:60%;
+}
+
+
+img{
+    border-radius: 50%;
+    margin-top: 50px;
+    position: relative;
+    left: 43%;
+    border: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    /* font-size: 20px; */
+}
+
+body{
+    background-image: linear-gradient(#ff6e7f,#bfe9ff);
+}
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #7b1abc !important;
+}
+
+
+footer
+{
+    background-color: #79CBCA;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+}
+
+p{
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+
+
+

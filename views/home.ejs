@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=PT+Sans:wght@700&display=swap" rel="stylesheet">        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <p class="navbar-brand">BUSINESS CARD</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/index">CREATE NOW</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://kit.fontawesome.com/8a65dcb62d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <img src="<%= picture %>" height="200px" width="200px"><br>
+    <br>
+    <div class="cont">
+        <h1> <%= fname %>  <%= lname %></h1> <br>
+         <h4> <span class="material-icons">work</span>   <%= desig %></h4><br>
+                    <h4> <span class="material-icons">business </span>   <%=comp %> </h4><br>
+                        <h4>  <span class="material-icons">phone  </span>   <%= phone %> </h4><br>
+                            <h4> <span class="material-icons">email  </span>   <%= mail %> </h4><br>
+                                <h4> <span class="material-icons">home  </span>   <%= house %> </h4><br>
+                                    <h4> <i class="fab fa-twitter-square"></i> <a href="<%= twitter %>"><%= twitter %> </a>  </h4><br>
+                                        <h4> <i class="fab fa-linkedin"></i>   <a href="<%= linkedin %>"><%= linkedin %></a> </h4><br>
+                                            <h4> <i class="fab fa-instagram"></i>   <a href="<%= insta %>"><%= insta %></a> </h4><br>
+                                                <h4> <i class="fab fa-github"></i>   <a href="<%= github %>"><%= github %></a> </h4><br>
+                                                    <h4> <i class="fab fa-whatsapp-square"></i> <a href="https://api.whatsapp.com/send?phone=<%= whatsapp %>">whatsapp_link</a></h4><br>
+
+    </div>
+
+
+   <footer class="ft">
+    <p>Made by <a href="https://www.linkedin.com/in/nikhil-pidamarthi-31551120b" target="_blank">@nikhil-pidamarthi</a>  </p>
+   </footer>
+</body>
+
+</html>
